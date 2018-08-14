@@ -12,13 +12,3 @@ Crie uma página, utilizando HTML, CSS e Javascript (com jQuery ou não), para c
 * Não use nenhuma biblioteca além do jQuery.
 * Não use bootstrap.
 * Não use o CSS do bootstrap.
-
-Ao exibir o IMC da pessoa, você deve informar qual condição de IMC a pessoa pertence, de acordo com a tabela abaixo:
- 
-IMC      Condição
-<18,5    Baixo peso
-18,5-25  Peso ideal
-25-30	 Sobrepeso
-30-35    Obesidade Grau 1
-35-40    Obesidade Grau 2
->40      Obesidade Grau 3
