@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>Calcule seu IMC</title>
+	<meta charset="uft-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<main>
+		<div>
+			<h2>Indice de massa corporal (IMC)</h2>
+			<p class="texto">O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Tal índice foi desenvolvido pelo polímata Lambert Quételet no fim do século XIX. Trata-se de um método fácil e rápido para a avaliação do nível de gordura de cada pessoa, ou seja, é um preditor internacional de obesidade adotado pela Organização Mundial da Saúde (OMS).</p>
+			<p>Para calcular o IMC, a fórmula é simples:</p>
+			<p class="formula">IMC = massa (em kg) / (altura * altura) (em m)</p>
+		</div>
+		<div class="largura">
+			<form name="formularioImc" action="#">
+				<fieldset>
+					<legend>Calcule seu IMC</legend>
+					<label>Peso</label>
+					<input type="text" id="peso" name="peso"placeholder="em quilograma">
+					<label>Altura</label>
+					<input type="text" id="altura" name="altura" placeholder="em metro">
+					<input type="submit" name="Enviar" value="Calcular" onclick="calcularImc()" class="botao">
+				</fieldset>
+			</form>
+		</div>
+	</main>
+</body>
+</html>
